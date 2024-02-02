@@ -50,3 +50,35 @@ Output
    ]
 }
 ```
+
+Functions
+---------
+
+    public function isMikit() {
+    public function setURL($in_url) {
+    public function buttonMenu($in_items,$in_current_selection,$in_style = 'primary', $in_size = 'small', $in_align = 'left') {
+    public function footerMenu($in_items, $in_current_selection, $in_style='primary', $in_size = 'small') {
+    public function textDisplay($in_value = '', $in_style = 'text') {
+    public function textInput($in_id,$in_label,$in_value='',$in_placeholder='',$in_required=false,$in_error='') {
+    public function hiddenInput($in_id,$in_value) {
+    public function card($in_title,$in_texts,$in_actions) {
+    public function footer($in_items) {
+    public function alert($in_text,$in_level) {
+    public function button($in_id,$in_label,$in_style='primary',$in_size='small',$in_action='submit') {
+    public function dropdown($in_id,$in_label,$in_options,$in_value,$in_required=false,$in_searchable=true) {
+    public function checkbox($in_id,$in_label,$in_checked = 'false') {
+    public function textArea($in_id,$in_label,$in_value,$in_rows) {
+    public function calendar($in_id,$in_label,$in_value) {
+    public function link($in_label,$in_url,$in_style = 'primary',$in_size = 'small') {
+    public function imageDisplay($in_url,$in_description = '') {
+    public function attachmentInsert($in_label,$in_url,$in_filename) {
+    public function textInsert($in_label,$in_content) {
+    public function textInsertByPath($in_label,$in_path) {
+    public function row($in_items,$in_align = 'left') {
+    public function set_blocks($in_item) {
+    public function add_to_blocks($in_item) {
+    public function render($in_debug = false) {
+    public function get_inputs($in_data) {
+    public function get_value_from_object($in_data) {
+    public function error($in_function,$in_error) {
+    public function blocksToErrorLog() {
