@@ -21,7 +21,7 @@ function hello_world() {
 	//Return the mikit object (json)
 	return $mikit->render();
 }
-```php
+```
 
 Output
 ------
